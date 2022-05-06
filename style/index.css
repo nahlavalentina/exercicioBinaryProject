@@ -1,0 +1,32 @@
+header {
+    background-color: var(--general);
+    color: var(--green);
+    padding: 12px;
+}
+
+h1 {
+    filter: drop-shadow(0px 0px 5px green);
+    /* background: linear-gradient(red, yellow, blue);
+    -webkit-background-clip: text;
+    color: transparent; */
+}
+
+h1::after {
+    content: '_';
+    animation: blink 0.9s none infinite;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0
+    }
+    100%{
+        opacity: 0;
+    }
+}

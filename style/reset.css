@@ -13,3 +13,11 @@ html, body {
 body {
     font-family: 'Roboto Flex', sans-serif;
 }
+
+:root {
+    --general: #19243d;
+    --grey: #3f4144;
+    --primary: #dc9119;
+    --base: #E5E5E5;
+    --green: #58ca76;
+}
