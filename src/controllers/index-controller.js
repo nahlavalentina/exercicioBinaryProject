@@ -17,7 +17,7 @@ class IndexController {
 
 // resgata valor do campo de input e atribui o valor através do método setInput
 
-    rescueInput() {
-        this.setInput($('#input-field').val());
+    rescueInput(field) {
+        this.setInput($(`#${field}`).val());
     }
 }

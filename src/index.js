@@ -1,4 +1,7 @@
 $('#submit').click(event =>{
-    event.preventDefault()
-    console.log(event)
+    event.preventDefault();
+
+    // const controller = new IndexController();
+    // controller.rescueInput('input-field');
+
 });
