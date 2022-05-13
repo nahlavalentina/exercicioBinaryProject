@@ -33,20 +33,25 @@
                     <option value="decimal">Decimal</option>
                     <option value="octal">Octal</option>
                 </select>
-                <button>Enviar</button>
+                <button id="submit">Enviar</button>
             </form>
         </section>
         <section>
             <form>
                 <label for="input-field">Código:</label>
-                <textarea name="input-field" id="" cols="30" rows="10"></textarea>
+                <textarea name="input-field" id="input-field" cols="30" rows="10"></textarea>
                 <label for="output-field">Tradução:</label>
-                <textarea name="output-field" id="" cols="30" rows="10"></textarea>
+                <textarea name="output-field" id="output-field" cols="30" rows="10" disabled></textarea>
             </form>
         </section>
     </main>
     <footer></footer>
-
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./src/views/index-view.js"></script>
+    <script src="./src/models/index-model.js"></script>
+    <script src="./src/controllers/index-controller.js"></script>
+    <script src="./src/index.js"></script>
 </body>
 
 </html>
