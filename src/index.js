@@ -5,3 +5,6 @@ $('#submit').click(event =>{
     // controller.rescueInput('input-field');
 
 });
+
+
+// charCodeat .toString(2) transforma ASCII em binário
